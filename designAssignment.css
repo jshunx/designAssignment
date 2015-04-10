@@ -1,5 +1,6 @@
 body {
     width: 360px;
+    padding-bottom: 1000px;
 }
 
 nav {
@@ -80,3 +81,64 @@ header > div > div > div > div {
 header > div > div > img {
     display: inline-block;
 }
+
+.about {
+    height: 512px;
+    background: #FFF;
+}
+
+.about img:first-of-type {
+    width: 80px;
+    height: 207px;
+    display: inline-block;
+    margin: 42px 140px 37px 140px;
+}
+
+.about img:nth-of-type(2) {
+    width: 25px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 29px;
+}
+
+.about h2 {
+    font: 18px "Source Sans Pro", sans-serif;
+    color: #454545;
+    display: inline;
+    padding-left: 13px;
+    vertical-align: super;
+}
+
+.about p {
+    font: 13px "Source Sans Pro", sans-serif;
+    width: 300px;
+    height: 58px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 23px;
+    margin-bottom: 28px;
+    margin-right: 33px;
+    display: inline-block;
+    line-height: 1.3em;
+    color: #454545;
+}
+
+.about a {
+    font: italic 11px "Droid Serif", serif;
+    color: #acd373;
+    display: inline-block;
+    padding: 9px 14px;
+    border: 1px #acd373 solid;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-bottom: 47px;
+}
+
+.about img:last-of-type {
+    width: 360px;
+    height: 262px;
+    display: block;
+}
+    
+
+    
