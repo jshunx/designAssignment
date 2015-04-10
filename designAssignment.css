@@ -1,0 +1,82 @@
+body {
+    width: 360px;
+}
+
+nav {
+    width: 360px;
+    height: 40px;
+    background: #acd373;
+    position: fixed;
+   line-height: 40px;
+}
+
+nav div {
+    width: 40px;
+    height: inherit;
+    background: #89a85c;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 40px;
+    
+}
+
+nav > img {
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+    
+}
+
+nav > div > img {
+    margin-left: 15px;
+}
+
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+h3 {
+    font-size: 13px;
+    font-family: "Droid Serif", serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+}
+
+header > div {
+    background: #9abd67 url("siluet.png") no-repeat bottom center content-box;
+    background-size:  635px 85px; 
+    height: 350px;
+    line-height: 330px;
+    padding-top: 40px;
+    text-align: center;
+   
+}
+
+header > div > div {
+    display: inline-block;
+    line-height: .1em;
+    background: url("arrow.png") no-repeat bottom center;
+    height: 115px;
+}
+
+header > div > div > div {
+    line-height: 56px;
+}
+
+header > div > div > div > div {
+    line-height: 126px;
+}
+
+header > div > div > img {
+    display: inline-block;
+}
